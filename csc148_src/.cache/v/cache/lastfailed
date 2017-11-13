@@ -1,0 +1,4 @@
+{
+  "main.py::test_unit": true,
+  "main.py::testable_unit": true
+}
