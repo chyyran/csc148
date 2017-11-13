@@ -49,6 +49,14 @@ class BlobGoal(Goal):
     """A goal to create the largest connected blob of this goal's target
     colour, anywhere within the Block.
     """
+    def score(self, board: Block) -> int:
+        # todo: Return a proper score
+        return 148
+
+    def description(self) -> str:
+        # todo: Better description
+        return 'Create the largest connected blob of this goal\'s target \
+    colour, anywhere within the Block'
 
     def _undiscovered_blob_size(self, pos: Tuple[int, int],
                                 board: List[List[Tuple[int, int, int]]],
@@ -71,6 +79,17 @@ class BlobGoal(Goal):
         either 0 or 1.
         """
         pass
+
+
+class PerimeterGoal(Goal):
+    def score(self, board: Block) -> int:
+        # todo: Return a proper score
+        return 148
+
+    def description(self) -> str:
+        # todo: Better description
+        return 'Put the most possible units of the given colour \
+                on the outer perimeter of the board.'
 
 
 if __name__ == '__main__':

@@ -17,8 +17,8 @@ can call to try playing the game in several different configurations.
 import random
 from typing import List
 from block import Block, random_init
-from goal import BlobGoal, PerimeterGoal
-from player import Player, HumanPlayer, RandomPlayer, SmartPlayer
+from goal import BlobGoal, PerimeterGoal, Goal
+from player import Player, HumanPlayer#, RandomPlayer, SmartPlayer
 from renderer import Renderer, COLOUR_LIST, colour_name, BOARD_WIDTH
 
 
@@ -50,7 +50,12 @@ class Game:
         Precondition:
             2 <= max_depth <= 5
         """
-        pass
+        # todo: Generate random players
+
+
+        self.renderer = Renderer(num_human + ran)
+
+    def random_goal(self) -> Goal:
 
     def run_game(self, num_turns: int) -> None:
         """Run the game for the number of turns specified.

@@ -15,7 +15,6 @@ import random
 import math
 from renderer import COLOUR_LIST, TEMPTING_TURQUOISE, BLACK, colour_name
 
-
 HIGHLIGHT_COLOUR = TEMPTING_TURQUOISE
 FRAME_COLOUR = BLACK
 
@@ -84,7 +83,13 @@ class Block:
         and max_depth) to 0.  (All attributes can be updated later, as
         appropriate.)
         """
-        pass
+        self.level = level
+        self.colour = colour
+        self.children = children if children is not None else []
+        self.position = (0, 0)
+        self.size = 0
+        self.max_depth = 0
+        self.highlighted = False
 
     def rectangles_to_draw(self) -> List[Tuple[Tuple[int, int, int],
                                                Tuple[int, int],
@@ -116,7 +121,34 @@ class Block:
 
         The order of the rectangles does not matter.
         """
-        pass
+        lst = []
+        if self.level == self.max_depth:
+            tup1 = (self.colour, self.position, (self.size, self.size), 0)
+            tup2 = (FRAME_COLOUR, self.position, (self.size, self.size), 3)
+            lst.append(tup1)
+            lst.append(tup2)
+            return lst
+
+        for child in self.children:
+            for rect in child.rectangles_to_draw():
+                if rect not in lst:
+                    lst.append(rect)
+        return lst
+
+    def _get_colored_rec(self, colour: Tuple[int, int, int]) -> Tuple[
+        Tuple[int, int, int],
+        Tuple[int, int],
+        Tuple[int, int],
+        int]:
+        return self._get_border_rec(colour, 0)
+
+    def _get_border_rec(self, colour: Tuple[int, int, int], thickness: int) -> \
+            Tuple[
+                Tuple[int, int, int],
+                Tuple[int, int],
+                Tuple[int, int],
+                int]:
+        return (colour, self.position, (self.size, self.size), thickness)
 
     def swap(self, direction: int) -> None:
         """Swap the child Blocks of this Block.
@@ -160,7 +192,38 @@ class Block:
         <top_left> is the (x, y) coordinates of the top left corner of
         this Block.  <size> is the height and width of this Block.
         """
-        pass
+        self._update_block_locations(top_left, size, self._get_max_depth())
+
+    def _update_block_locations(self, top_left: Tuple[int, int], size: int,
+                                max_depth: int) -> None:
+        self.size = size
+        self.position = top_left
+        self.max_depth = max_depth
+        if len(self.children) != 0:
+            # ┏━━━┳━━━┓
+            # ┃ 2 ┃ 3 ┃
+            # ┣━━━╋━━━┫
+            # ┃ 1 ┃ 0 ┃
+            # ┗━━━┻━━━┛
+            child_size = size // 2
+            self.children[0]._update_block_locations((top_left[0] + child_size,
+                                                      top_left[1] + child_size),
+                                                     child_size, max_depth)
+            self.children[1]._update_block_locations((top_left[0], top_left[1] +
+                                                      child_size), child_size,
+                                                     max_depth)
+            self.children[2]._update_block_locations(top_left, child_size,
+                                                     max_depth)
+            self.children[3]._update_block_locations((top_left[0] + child_size,
+                                                      top_left[1]), child_size,
+                                                     max_depth)
+
+    def _get_max_depth(self, max_depth=0) -> int:
+        # todo: is there a better way?
+        if len(self.children) != 0:
+            return max([child._get_max_depth(max_depth + 1)
+                        for child in self.children])
+        return max_depth
 
     def get_selected_block(self, location: Tuple[int, int], level: int) \
             -> 'Block':
@@ -179,7 +242,7 @@ class Block:
         Preconditions:
         - 0 <= level <= max_depth
         """
-        pass
+        return self
 
     def flatten(self) -> List[List[Tuple[int, int, int]]]:
         """Return a two-dimensional list representing this Block as rows
@@ -207,7 +270,15 @@ def random_init(level: int, max_depth: int) -> 'Block':
     Precondition:
         level <= max_depth
     """
-    pass
+    seed = random.random()
+    colour = random.randint(0, len(COLOUR_LIST) - 1)
+    block_children = []
+    if seed < math.exp(-0.25 * level) and (level + 1) <= max_depth:
+        for _ in range(4):
+            block_children.append(random_init(level + 1, max_depth))
+
+    block = Block(level, COLOUR_LIST[colour], block_children)
+    return block
 
 
 def attributes_str(b: Block, verbose) -> str:
@@ -253,6 +324,7 @@ def print_block_indented(b: Block, indent: int, verbose) -> None:
         print(f'{"  " * indent}{attributes_str(b, verbose)}')
         for child in b.children:
             print_block_indented(child, indent + 1, verbose)
+
 
 if __name__ == '__main__':
     # import python_ta
@@ -315,3 +387,34 @@ if __name__ == '__main__':
     print("\n=== random tree ===")
     # All attributes should have sensible values when we print this tree.
     print_block(b2, True)
+
+    b3 = Block(0, children=[
+        Block(1, children=[
+            Block(2, COLOUR_LIST[2]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[2]),
+            Block(2, COLOUR_LIST[0])
+        ]),
+        Block(1, children=[
+            Block(2, COLOUR_LIST[0]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[2])
+        ]),
+        Block(1, children=[
+            Block(2, COLOUR_LIST[2]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[0])
+        ]),
+        Block(1, children=[
+            Block(2, COLOUR_LIST[0]),
+            Block(2, COLOUR_LIST[2]),
+            Block(2, COLOUR_LIST[1]),
+            Block(2, COLOUR_LIST[2])
+        ])
+    ])
+
+    b3.update_block_locations((0, 0), 50)
+    print('===rectangle block===')
+    print_block(b3, True)

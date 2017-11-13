@@ -1,5 +1,6 @@
-from block import Block
+from block import Block, FRAME_COLOUR
 from renderer import COLOUR_LIST
+
 
 def test_rectangles_to_draw():
     """
@@ -34,7 +35,8 @@ def test_rectangles_to_draw():
         ])
     ])
     block.update_block_locations((0, 0), 50)
-    actual_set = set(block.rectangles_to_draw())
+    recs = block.rectangles_to_draw()
+    actual_set = set(recs)
 
     # Define the correct set of rectangles, again as a set.
     correct_rectangles = [((138, 151, 71), (37, 0), (12, 12), 0),
@@ -72,5 +74,18 @@ def test_rectangles_to_draw():
     correct_set = set(correct_rectangles)
 
     # There must be no difference between the actual set and the correct set!
+    assert actual_set.difference(correct_set) == set()
+    assert correct_set.difference(actual_set) == set()
+
+
+def test_one_block():
+    b0 = Block(0, COLOUR_LIST[2])
+    # Now we update position and size throughout the tree.
+    b0.update_block_locations((0, 0), 750)
+    correct_rectangles = [(COLOUR_LIST[2], (0, 0), (750, 750), 0),
+                          (FRAME_COLOUR, (0, 0), (750, 750), 3)]
+    correct_set = set(correct_rectangles)
+    recs = b0.rectangles_to_draw()
+    actual_set = set(recs)
     assert actual_set.difference(correct_set) == set()
     assert correct_set.difference(actual_set) == set()
