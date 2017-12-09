@@ -169,6 +169,18 @@ class Tree:
         total_branch=sum([i._branching_factor_helper()[0] for i in self._subtrees], len(self._subtrees))
         return (total_branch, non_leaf_nodes)
 
+    def items_at_depth(self, d):
+        """
+        >>> Tree(None, []).branching_factor()
+        0.0
+        >>> t = Tree(1, [Tree(2, []), Tree(5, [Tree(2, [])])])
+        >>> t.items_at_depth(3)
+        1
+        """
+        if d == 1:
+            return 1
+        return sum([i.items_at_depth(d-1) for i in self._subtrees])
+
     def insert(self, item: object) -> None:
         """Insert <item> into this tree using the following algorithm.
 
@@ -195,7 +207,7 @@ class Tree:
         >>> 100 in t
         True
         """
-        # Use the function randint as follows:
+        # Use the function randint as follws:
         # >>> random.randint(1, 3)
         # 2  # Randomly returns 1, 2, or 3
 

@@ -981,7 +981,7 @@ class MutableSequence(Sequence):
         for i in range(n//2):
             self[i], self[n-i-1] = self[n-i-1], self[i]
 
-    def extend(self, values):
+    def extend(self, values: object) -> object:
         'S.extend(iterable) -- extend sequence by appending elements from the iterable'
         for v in values:
             self.append(v)

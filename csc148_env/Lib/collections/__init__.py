@@ -1088,7 +1088,7 @@ class UserList(MutableSequence):
     def index(self, item, *args): return self.data.index(item, *args)
     def reverse(self): self.data.reverse()
     def sort(self, *args, **kwds): self.data.sort(*args, **kwds)
-    def extend(self, other):
+    def extend(self, other: object) -> object:
         if isinstance(other, UserList):
             self.data.extend(other.data)
         else:

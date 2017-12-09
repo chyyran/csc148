@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93e9980-a36d-4dfe-ac39-e53f29d4b696" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/ex6/ex6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/ex6/ex6_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/ex7/dict.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/ex7/ex7.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exercises/ex7/ex7_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab10/profile_sorting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab10/sorting.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab10/timer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab10/timsort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab9/bst.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab9/profile_bst.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab9/timer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assignments/a2/string_color_list.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/_collections_abc.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/_collections_abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/collections/__init__.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/collections/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/jinja2/environment.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/jinja2/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pygame/tests/test_utils/png.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pygame/tests/test_utils/png.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pyparsing.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/python_ta/typecheck/typeshed/builtins.pyi" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/python_ta/typecheck/typeshed/builtins.pyi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/../csc148_env/Lib/site-packages/setuptools/command/egg_info.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/csc148_src.iml" afterPath="$PROJECT_DIR$/.idea/csc148_src.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/block.py" afterPath="$PROJECT_DIR$/assignments/a2/block.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/game.py" afterPath="$PROJECT_DIR$/assignments/a2/game.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/goal.py" afterPath="$PROJECT_DIR$/assignments/a2/goal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/player.py" afterPath="$PROJECT_DIR$/assignments/a2/player.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/renderer.py" afterPath="$PROJECT_DIR$/assignments/a2/renderer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignments/a2/simple_test.py" afterPath="$PROJECT_DIR$/assignments/a2/simple_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/ex5/ex5.py" afterPath="$PROJECT_DIR$/exercises/ex5/ex5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab6/linked_list_v2.py" afterPath="$PROJECT_DIR$/labs/lab6/linked_list_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labs/lab8/tree.py" afterPath="$PROJECT_DIR$/labs/lab8/tree.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,24 +64,40 @@
     <SUITE FILE_PATH="coverage/csc148_src$py_test_in_ex1_test_py.coverage" NAME="py.test in ex1_test.py Coverage Results" MODIFIED="1506359667607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList_remove.coverage" NAME="Doctest LinkedList.remove Coverage Results" MODIFIED="1507831174004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_PeopleChain_get_second.coverage" NAME="Doctest PeopleChain.get_second Coverage Results" MODIFIED="1507176684319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_rotate_right.coverage" NAME="Doctest BinarySearchTree.rotate_right Coverage Results" MODIFIED="1510858049467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab9" />
     <SUITE FILE_PATH="coverage/csc148_src$timequeue.coverage" NAME="timequeue Coverage Results" MODIFIED="1507225838601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab4" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList___setitem__.coverage" NAME="Doctest LinkedList.__setitem__ Coverage Results" MODIFIED="1507831134360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_product.coverage" NAME="Doctest product Coverage Results" MODIFIED="1507224555679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab4" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_BinarySearchTree.coverage" NAME="Doctests in BinarySearchTree Coverage Results" MODIFIED="1512801114610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex6" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_height.coverage" NAME="Doctest BinarySearchTree.height Coverage Results" MODIFIED="1510855971021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_for_simple_test_test_flatten.coverage" NAME="py.test for simple_test.test_flatten Coverage Results" MODIFIED="1511387867558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
+    <SUITE FILE_PATH="coverage/csc148_src$player.coverage" NAME="player Coverage Results" MODIFIED="1511912344573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$container.coverage" NAME="container Coverage Results" MODIFIED="1508432769308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_for_simple_test_test_rotate.coverage" NAME="py.test for simple_test.test_rotate Coverage Results" MODIFIED="1511247486293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$tiling.coverage" NAME="tiling Coverage Results" MODIFIED="1509731015681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab8" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex1_test_test_dispatch_distance_fail.coverage" NAME="py.test for ex1_test.test_dispatch_distance_fail Coverage Results" MODIFIED="1506217228941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList_count.coverage" NAME="Doctest LinkedList.count Coverage Results" MODIFIED="1507827513922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex1_test_test_move_negative.coverage" NAME="py.test for ex1_test.test_move_negative Coverage Results" MODIFIED="1505938353855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex6_test_test_levels_correct_length.coverage" NAME="py.test for ex6_test.test_levels_correct_length Coverage Results" MODIFIED="1510786203601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex6" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_equal.coverage" NAME="Doctest equal Coverage Results" MODIFIED="1509039954392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_flatten1.coverage" NAME="Doctest flatten1 Coverage Results" MODIFIED="1509038988709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList_is_empty.coverage" NAME="Doctest LinkedList.is_empty Coverage Results" MODIFIED="1507831216746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex6_test_test_levels_handmade.coverage" NAME="py.test for ex6_test.test_levels_handmade Coverage Results" MODIFIED="1512801281911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex6" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_timsort.coverage" NAME="Doctest timsort Coverage Results" MODIFIED="1512069572219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_find_runs3.coverage" NAME="Doctest find_runs3 Coverage Results" MODIFIED="1512077379651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_a1_sample_test.coverage" NAME="py.test for a1_sample_test Coverage Results" MODIFIED="1507331607581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_mergesort.coverage" NAME="Doctest mergesort Coverage Results" MODIFIED="1512068702853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
     <SUITE FILE_PATH="coverage/csc148_src$main.coverage" NAME="main Coverage Results" MODIFIED="1504892127684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_PeopleChain_get_nth.coverage" NAME="Doctest PeopleChain.get_nth Coverage Results" MODIFIED="1507177018876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
     <SUITE FILE_PATH="coverage/csc148_src$visualizer.coverage" NAME="visualizer Coverage Results" MODIFIED="1507058450659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
-    <SUITE FILE_PATH="coverage/csc148_src$game.coverage" NAME="game Coverage Results" MODIFIED="1510608754849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_find_runs2.coverage" NAME="Doctest find_runs2 Coverage Results" MODIFIED="1512076784138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
+    <SUITE FILE_PATH="coverage/csc148_src$profile_sorting.coverage" NAME="profile_sorting Coverage Results" MODIFIED="1512086691820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_in_ex6_test_py.coverage" NAME="py.test in ex6_test.py Coverage Results" MODIFIED="1512801196718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex6" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_Tree_longest_path.coverage" NAME="Doctest Tree.longest_path Coverage Results" MODIFIED="1511469725054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex5" />
+    <SUITE FILE_PATH="coverage/csc148_src$game.coverage" NAME="game Coverage Results" MODIFIED="1511911342562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex3_test_test_get_nth_on_out_of_bounds_index.coverage" NAME="py.test for ex3_test.test_get_nth_on_out_of_bounds_index Coverage Results" MODIFIED="1507176798216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex3_test.coverage" NAME="py.test for ex3_test Coverage Results" MODIFIED="1507177098517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
+    <SUITE FILE_PATH="coverage/csc148_src$goal.coverage" NAME="goal Coverage Results" MODIFIED="1511908685293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_ex4.coverage" NAME="Doctests in ex4 Coverage Results" MODIFIED="1508954399246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex4" />
     <SUITE FILE_PATH="coverage/csc148_src$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1505929656564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/excercises/ex1" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec___getitem__.coverage" NAME="Doctest LinkedListRec.__getitem__ Coverage Results" MODIFIED="1509040450549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
@@ -72,40 +118,52 @@
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList_add.coverage" NAME="Doctest LinkedList.add Coverage Results" MODIFIED="1507831177217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_in_ex2_test_py.coverage" NAME="py.test in ex2_test.py Coverage Results" MODIFIED="1506899183345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList___getitem__.coverage" NAME="Doctest LinkedList.__getitem__ Coverage Results" MODIFIED="1507829979412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_smaller.coverage" NAME="Doctest BinarySearchTree.smaller Coverage Results" MODIFIED="1510856104897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList___contains__.coverage" NAME="Doctest LinkedList.__contains__ Coverage Results" MODIFIED="1507827465014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_Tree_leaves.coverage" NAME="Doctest Tree.leaves Coverage Results" MODIFIED="1509643064554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab8" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_in_btree_test_py.coverage" NAME="py.test in btree_test.py Coverage Results" MODIFIED="1509731941852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lectures/week8" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_a1_sample_test_test_statistics_simple.coverage" NAME="py.test for a1_sample_test.test_statistics_simple Coverage Results" MODIFIED="1508019631617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_rectangle_test_test_one_block.coverage" NAME="py.test for rectangle_test.test_one_block Coverage Results" MODIFIED="1510606235787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
+    <SUITE FILE_PATH="coverage/csc148_src$ex6.coverage" NAME="ex6 Coverage Results" MODIFIED="1511027462756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex6" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_nested_max.coverage" NAME="Doctest nested_max Coverage Results" MODIFIED="1509039784337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex1_test_test_dispatch_distance.coverage" NAME="py.test for ex1_test.test_dispatch_distance Coverage Results" MODIFIED="1506217156124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_add_one.coverage" NAME="Doctest add_one Coverage Results" MODIFIED="1508953222594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex4" />
-    <SUITE FILE_PATH="coverage/csc148_src$py_test_in_rectangle_test_py.coverage" NAME="py.test in rectangle_test.py Coverage Results" MODIFIED="1510602300477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_Tree_items_at_depth.coverage" NAME="Doctest Tree.items_at_depth Coverage Results" MODIFIED="1511205763510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab8" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_items.coverage" NAME="Doctest BinarySearchTree.items Coverage Results" MODIFIED="1510856054431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_find_runs.coverage" NAME="Doctest find_runs Coverage Results" MODIFIED="1512069195118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab10" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_in_rectangle_test_py.coverage" NAME="py.test in rectangle_test.py Coverage Results" MODIFIED="1510952600488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_tweet.coverage" NAME="Doctests in tweet Coverage Results" MODIFIED="1506016832459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_Tree_branching_factor.coverage" NAME="Doctest Tree.branching_factor Coverage Results" MODIFIED="1509644280724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab8" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_ex2.coverage" NAME="Doctests in ex2 Coverage Results" MODIFIED="1506618820146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec_map.coverage" NAME="Doctest LinkedListRec.map Coverage Results" MODIFIED="1509042926046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_in_a1_sample_test_py.coverage" NAME="py.test in a1_sample_test.py Coverage Results" MODIFIED="1508031966016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_for_simple_test_test_smash.coverage" NAME="py.test for simple_test.test_smash Coverage Results" MODIFIED="1511247493269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_a1_sample_test_test_ride_ends_outside_run.coverage" NAME="py.test for a1_sample_test.test_ride_ends_outside_run Coverage Results" MODIFIED="1507837698127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_in_ex4_test_py.coverage" NAME="py.test in ex4_test.py Coverage Results" MODIFIED="1509386232693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex4" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_merge_alternating.coverage" NAME="Doctest merge_alternating Coverage Results" MODIFIED="1507177855883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_rectangle_test_test_rectangles_to_draw.coverage" NAME="py.test for rectangle_test.test_rectangles_to_draw Coverage Results" MODIFIED="1510608736307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_product_star.coverage" NAME="Doctest product_star Coverage Results" MODIFIED="1507224667984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab4" />
     <SUITE FILE_PATH="coverage/csc148_src$ex5.coverage" NAME="ex5 Coverage Results" MODIFIED="1509683151581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex5" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_rotate_left.coverage" NAME="Doctest BinarySearchTree.rotate_left Coverage Results" MODIFIED="1510858076964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab9" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex1_test_test_move_simple.coverage" NAME="py.test for ex1_test.test_move_simple Coverage Results" MODIFIED="1505938697888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec___setitem__.coverage" NAME="Doctest LinkedListRec.__setitem__ Coverage Results" MODIFIED="1509041244217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex3_test_test_reverse_many.coverage" NAME="py.test for ex3_test.test_reverse_many Coverage Results" MODIFIED="1507175405370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
     <SUITE FILE_PATH="coverage/csc148_src$simulation.coverage" NAME="simulation Coverage Results" MODIFIED="1508032118589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
     <SUITE FILE_PATH="coverage/csc148_src$flatten.coverage" NAME="flatten Coverage Results" MODIFIED="1509038983520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
+    <SUITE FILE_PATH="coverage/csc148_src$ex7.coverage" NAME="ex7 Coverage Results" MODIFIED="1512337173574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_Tweet_retweet.coverage" NAME="Doctest Tweet.retweet Coverage Results" MODIFIED="1506015737953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec___contains__.coverage" NAME="Doctest LinkedListRec.__contains__ Coverage Results" MODIFIED="1509041589086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
+    <SUITE FILE_PATH="coverage/csc148_src$py_test_in_simple_test_py.coverage" NAME="py.test in simple_test.py Coverage Results" MODIFIED="1512286141543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList___str__.coverage" NAME="Doctest LinkedList.__str__ Coverage Results" MODIFIED="1507827182741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedList_index.coverage" NAME="Doctest LinkedList.index Coverage Results" MODIFIED="1507827622282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$ex1__1_.coverage" NAME="ex1 (1) Coverage Results" MODIFIED="1506219272841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex1" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_smaller__1_.coverage" NAME="Doctest BinarySearchTree.smaller (1) Coverage Results" MODIFIED="1510857326202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab9" />
     <SUITE FILE_PATH="coverage/csc148_src$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1507832348730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_ex5_test_test_tree_equals_itself.coverage" NAME="py.test for ex5_test.test_tree_equals_itself Coverage Results" MODIFIED="1509680853938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex5" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_ex7.coverage" NAME="Doctests in ex7 Coverage Results" MODIFIED="1512337164525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
     <SUITE FILE_PATH="coverage/csc148_src$ex4.coverage" NAME="ex4 Coverage Results" MODIFIED="1509386298693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex4" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_ex5__1_.coverage" NAME="Doctests in ex5 (1) Coverage Results" MODIFIED="1509683047456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex5" />
+    <SUITE FILE_PATH="coverage/csc148_src$Doctest_BinarySearchTree_insert.coverage" NAME="Doctest BinarySearchTree.insert Coverage Results" MODIFIED="1510856195666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex7" />
     <SUITE FILE_PATH="coverage/csc148_src$bikeshare.coverage" NAME="bikeshare Coverage Results" MODIFIED="1508031714823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
     <SUITE FILE_PATH="coverage/csc148_src$myqueue.coverage" NAME="myqueue Coverage Results" MODIFIED="1507224692723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab4" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec_insert_first.coverage" NAME="Doctest LinkedListRec.insert_first Coverage Results" MODIFIED="1509041935529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
@@ -115,11 +173,12 @@
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_count_odd.coverage" NAME="Doctest count_odd Coverage Results" MODIFIED="1509043520574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_ex5.coverage" NAME="Doctests in ex5 Coverage Results" MODIFIED="1509683116383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_Tree.coverage" NAME="Doctests in Tree Coverage Results" MODIFIED="1509643989990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab8" />
-    <SUITE FILE_PATH="coverage/csc148_src$linked_list_v2.coverage" NAME="linked_list_v2 Coverage Results" MODIFIED="1508436514186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/csc148_src$linked_list_v2.coverage" NAME="linked_list_v2 Coverage Results" MODIFIED="1511044576690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_User_verbosity.coverage" NAME="Doctest User.verbosity Coverage Results" MODIFIED="1506014786430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_LinkedListRec_pop.coverage" NAME="Doctest LinkedListRec.pop Coverage Results" MODIFIED="1509042077967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab7" />
     <SUITE FILE_PATH="coverage/csc148_src$py_test_for_a1_sample_test_test_create_rides_simple.coverage" NAME="py.test for a1_sample_test.test_create_rides_simple Coverage Results" MODIFIED="1507328749579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
-    <SUITE FILE_PATH="coverage/csc148_src$block.coverage" NAME="block Coverage Results" MODIFIED="1510607232164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
+    <SUITE FILE_PATH="coverage/csc148_src$profile_bst.coverage" NAME="profile_bst Coverage Results" MODIFIED="1510858388678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab9" />
+    <SUITE FILE_PATH="coverage/csc148_src$block.coverage" NAME="block Coverage Results" MODIFIED="1511908603579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a2" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctest_PeopleChain_get_leader.coverage" NAME="Doctest PeopleChain.get_leader Coverage Results" MODIFIED="1507176362957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercises/ex3" />
     <SUITE FILE_PATH="coverage/csc148_src$time_lists.coverage" NAME="time_lists Coverage Results" MODIFIED="1507828856887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labs/lab5" />
     <SUITE FILE_PATH="coverage/csc148_src$Doctests_in_PriorityQueue.coverage" NAME="Doctests in PriorityQueue Coverage Results" MODIFIED="1506964587813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignments/a1" />
@@ -130,65 +189,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="rectangle_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/rectangle_test.py">
+      <file leaf-file-name="ex7.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/ex7/ex7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_color_list.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/string_color_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="block.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/block.py">
+      <file leaf-file-name="ex6.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/ex6/ex6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1149">
-              <caret line="208" column="26" lean-forward="true" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
-              <folding>
-                <element signature="e#244#284#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="430">
+              <caret line="191" column="28" lean-forward="true" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/player.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/_pytest/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
+            <state relative-caret-position="130">
+              <caret line="1060" column="0" lean-forward="false" selection-start-line="1060" selection-start-column="0" selection-end-line="1060" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignments/a2/goal.py">
+      <file leaf-file-name="dict.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercises/ex7/dict.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,36 +240,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>property</find>
-      <find>error</find>
-      <find>handle_window</find>
-      <find>render</find>
-      <find>Update Ti</find>
-      <find>pre_no</find>
-      <find>or None</find>
-      <find>masson</find>
-      <find>10e</find>
-      <find>None</find>
-      <find>norma</find>
-      <find>start&gt;</find>
-      <find>6091</find>
-      <find>Joseph Manceau / René-Lévesque</find>
-      <find>start_c</find>
-      <find>self.start</find>
-      <find>print</find>
-      <find>record_ride_sta</find>
-      <find>dispatch</find>
-      <find>is_ride</find>
-      <find>all_sta</find>
-      <find>active</find>
-      <find>set</find>
-      <find>v</find>
-      <find>value</find>
-      <find>contains</find>
-      <find>update_block</find>
-      <find>size</find>
       <find>get_selected</find>
       <find>0,0</find>
+      <find>highlight</find>
+      <find>extend</find>
+      <find>//2</find>
+      <find>List[in</find>
+      <find>smallest</find>
+      <find>colo</find>
+      <find>smash</find>
+      <find>parent</find>
+      <find>rotate</find>
+      <find>Callable</find>
+      <find>flatte</find>
+      <find>logest</find>
+      <find>map</find>
+      <find>_difficulty</find>
+      <find>assert</find>
+      <find>human-g</find>
+      <find>set</find>
+      <find>COLOUR</find>
+      <find>_coordin</find>
+      <find>apply</find>
+      <find>_appl</find>
+      <find>ma</find>
+      <find>_coordinates</find>
+      <find>SmartPla</find>
+      <find>board</find>
+      <find>generate</find>
+      <find>construc</find>
+      <find>todo</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -245,25 +280,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/assignments/a2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/excercises/ex_1/ex1_test.py" />
-        <option value="$PROJECT_DIR$/oop_tweet/tweet.py" />
-        <option value="$PROJECT_DIR$/excercises/ex_1/ex1.py" />
-        <option value="$PROJECT_DIR$/lectures/week2/tweet.py" />
-        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tkinter/ttk.py" />
-        <option value="$PROJECT_DIR$/labs/lab2/twitter.py" />
-        <option value="$PROJECT_DIR$/labs/lab2/tweet.py" />
-        <option value="$PROJECT_DIR$/exercises/ex1/ex1_test.py" />
-        <option value="$PROJECT_DIR$/exercises/ex1/ex1.py" />
-        <option value="$PROJECT_DIR$/exercises/ex2/obfuscated_stack.py" />
-        <option value="$PROJECT_DIR$/exercises/ex2/ex2.py" />
-        <option value="$PROJECT_DIR$/labs/lab3/lab3.py" />
-        <option value="$PROJECT_DIR$/exercises/ex2/ex2_test.py" />
         <option value="$PROJECT_DIR$/exercises/ex3/stack.py" />
         <option value="$PROJECT_DIR$/labs/lab4/stack.py" />
         <option value="$PROJECT_DIR$/labs/lab4/myqueue.py" />
@@ -281,26 +302,40 @@
         <option value="$PROJECT_DIR$/assignments/a1/simulation.py" />
         <option value="$PROJECT_DIR$/assignments/a1/a1_sample_test.py" />
         <option value="$PROJECT_DIR$/labs/lab5/linked_list.py" />
-        <option value="$PROJECT_DIR$/labs/lab6/linked_list_v2.py" />
         <option value="$PROJECT_DIR$/exercises/ex4/ex4_test.py" />
         <option value="$PROJECT_DIR$/labs/lab7/nested.py" />
         <option value="$PROJECT_DIR$/labs/lab7/flatten.py" />
         <option value="$PROJECT_DIR$/labs/lab7/rec_linked_list.py" />
-        <option value="$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/builtins.py" />
         <option value="$PROJECT_DIR$/lectures/week7/recursion.py" />
         <option value="$PROJECT_DIR$/exercises/ex4/ex4.py" />
         <option value="$PROJECT_DIR$/lectures/week8/tree.py" />
-        <option value="$PROJECT_DIR$/labs/lab8/tree.py" />
         <option value="$PROJECT_DIR$/labs/lab8/tiling.py" />
         <option value="$PROJECT_DIR$/exercises/ex5/ex5_test.py" />
-        <option value="$PROJECT_DIR$/exercises/ex5/ex5.py" />
         <option value="$PROJECT_DIR$/lectures/week8/btree_test.py" />
         <option value="$PROJECT_DIR$/lectures/week8/btree.py" />
         <option value="$PROJECT_DIR$/assignments/a2/string_color_list.py" />
         <option value="$PROJECT_DIR$/assignments/a2/rectangle_test.py" />
-        <option value="$PROJECT_DIR$/assignments/a2/block.py" />
-        <option value="$PROJECT_DIR$/assignments/a2/goal.py" />
+        <option value="$PROJECT_DIR$/exercises/ex6/ex6_test.py" />
+        <option value="$PROJECT_DIR$/exercises/ex7/bst.py" />
+        <option value="$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/builtins.py" />
+        <option value="$PROJECT_DIR$/exercises/ex6/timer.py" />
+        <option value="$PROJECT_DIR$/exercises/ex6/proile_bst.py" />
+        <option value="$PROJECT_DIR$/labs/lab9/bst.py" />
+        <option value="$PROJECT_DIR$/labs/lab9/profile_bst.py" />
+        <option value="$PROJECT_DIR$/labs/lab6/linked_list_v2.py" />
+        <option value="$PROJECT_DIR$/assignments/a2/.gitignore" />
+        <option value="$PROJECT_DIR$/labs/lab8/tree.py" />
+        <option value="$PROJECT_DIR$/exercises/ex5/ex5.py" />
         <option value="$PROJECT_DIR$/assignments/a2/game.py" />
+        <option value="$PROJECT_DIR$/assignments/a2/goal.py" />
+        <option value="$PROJECT_DIR$/assignments/a2/player.py" />
+        <option value="$PROJECT_DIR$/assignments/a2/block.py" />
+        <option value="$PROJECT_DIR$/labs/lab10/sorting.py" />
+        <option value="$PROJECT_DIR$/labs/lab10/profile_sorting.py" />
+        <option value="$PROJECT_DIR$/labs/lab10/timsort.py" />
+        <option value="$PROJECT_DIR$/assignments/a2/simple_test.py" />
+        <option value="$PROJECT_DIR$/exercises/ex7/ex7.py" />
+        <option value="$PROJECT_DIR$/exercises/ex6/ex6.py" />
       </list>
     </option>
   </component>
@@ -357,7 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,47 +402,32 @@
             <path>
               <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="a2" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="ex6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
               <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="labs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csc148_src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csc148_src" type="462c0819:PsiDirectoryNode" />
-              <item name="lectures" type="462c0819:PsiDirectoryNode" />
-              <item name="week8" type="462c0819:PsiDirectoryNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="ex7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../controllerlementenum" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -424,6 +443,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ronny\coding\csc148\csc148_src\exercises\ex7" />
+      <recent name="C:\Users\ronny\coding\csc148\csc148_src\labs\lab10" />
+      <recent name="C:\Users\ronny\coding\csc148\csc148_src\labs\lab9" />
       <recent name="C:\Users\ronny\coding\csc148\csc148_src\lectures\week2" />
     </key>
   </component>
@@ -439,39 +461,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.game">
-    <configuration name="block" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.py.test for ex6_test.test_levels_handmade">
+    <configuration name="Doctests in BinarySearchTree" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/ex6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="csc148_src" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a2/block.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/ex6/ex6.py" />
+      <option name="CLASS_NAME" value="BinarySearchTree" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
     </configuration>
-    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/ex7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="csc148_src" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/a2/game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/ex7/ex7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -494,12 +517,30 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="py.test for rectangle_test.test_one_block" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="profile_sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/labs/lab10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="csc148_src" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/labs/lab10/profile_sorting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="py.test for ex6_test.test_levels_handmade" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/ex6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -507,31 +548,15 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;rectangle_test.test_one_block&quot;" />
+      <option name="_new_target" value="&quot;ex6_test.test_levels_handmade&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for rectangle_test.test_rectangles_to_draw" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in ex6_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="csc148_src" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;-vv&quot;" />
-      <option name="_new_target" value="&quot;rectangle_test.test_rectangles_to_draw&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test in rectangle_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/a2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercises/ex6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -539,24 +564,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/assignments/a2/rectangle_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/exercises/ex6/ex6_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.linked_list_v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.game" />
-      <item index="2" class="java.lang.String" itemvalue="Python.block" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for rectangle_test.test_rectangles_to_draw" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in rectangle_test.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test for rectangle_test.test_one_block" />
+      <item index="1" class="java.lang.String" itemvalue="Python.profile_sorting" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ex7" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in ex6_test.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in BinarySearchTree" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test for ex6_test.test_levels_handmade" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.game" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for rectangle_test.test_rectangles_to_draw" />
-        <item index="2" class="java.lang.String" itemvalue="Python.block" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for rectangle_test.test_one_block" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in rectangle_test.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for ex6_test.test_levels_handmade" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in ex6_test.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in BinarySearchTree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ex7" />
+        <item index="4" class="java.lang.String" itemvalue="Python.profile_sorting" />
       </list>
     </recent_temporary>
   </component>
@@ -574,35 +599,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 15h 59m 09s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="Doctests_in_BinarySearchTree - 2017.12.09 at 01h 32m 00s.xml">
+      <configuration name="Doctests in BinarySearchTree" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 02m 35s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_for_ex6_test_test_levels_handmade - 2017.12.09 at 01h 34m 30s.xml">
+      <configuration name="py.test for ex6_test.test_levels_handmade" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 09m 12s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_for_ex6_test_test_levels_handmade - 2017.12.09 at 01h 34m 54s.xml">
+      <configuration name="py.test for ex6_test.test_levels_handmade" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 10m 48s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 26m 55s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 11m 04s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 29m 41s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 17m 31s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 30m 55s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 29m 55s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 31m 25s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 31m 18s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 32m 34s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 32m 19s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 32m 51s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_rectangle_test_test_rectangles_to_draw - 2017.11.13 at 16h 40m 34s.xml">
-      <configuration name="py.test for rectangle_test.test_rectangles_to_draw" configurationId="tests" />
+    <history-entry file="py_test_in_ex6_test_py - 2017.12.09 at 01h 32m 59s.xml">
+      <configuration name="py.test in ex6_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -618,19 +643,20 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20461869" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22717509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19020501" sideWeight="0.30719656" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32687926" sideWeight="0.37003222" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10820045" sideWeight="0.69280344" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33940774" sideWeight="0.49785176" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32687926" sideWeight="0.62996775" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25778732" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23006834" sideWeight="0.60902256" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.4935553" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48747152" sideWeight="0.6245972" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="959" y="489" width="984" height="390" />
@@ -652,16 +678,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/labs/lab6/linked_list_v2.py</url>
-          <line>454</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/labs/lab6/linked_list_v2.py</url>
-          <line>453</line>
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/labs/lab8/tiling.py</url>
           <line>51</line>
           <option name="timeStamp" value="136" />
@@ -676,7 +692,29 @@
           <line>76</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercises/ex5/ex5.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="python-exception">
+          <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" exception="builtins.AssertionError">
+            <option name="notifyOnTerminate" value="true" />
+            <option name="notifyOnlyOnFirst" value="true" />
+          </properties>
+          <option name="timeStamp" value="251" />
+        </breakpoint>
+        <breakpoint type="python-exception">
+          <properties notifyOnlyOnFirst="true" notifyOnTerminate="true" exception="python_ta.typecheck.typeshed.builtins.IndexError">
+            <option name="notifyOnTerminate" value="true" />
+            <option name="notifyOnlyOnFirst" value="true" />
+          </properties>
+          <option name="timeStamp" value="285" />
+        </breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -684,389 +722,376 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="151" />
+      <option name="time" value="301" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="self._subtrees[1]._subtrees[0]" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/py/_path/common.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/_collections.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="195" column="33" lean-forward="false" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="33" />
+        <state relative-caret-position="2140">
+          <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/py/_path/common.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="195" column="33" lean-forward="false" selection-start-line="195" selection-start-column="27" selection-end-line="195" selection-end-column="33" />
+        <state relative-caret-position="2180">
+          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/turtledemo/nim.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="36140">
+          <caret line="1807" column="30" lean-forward="true" selection-start-line="1807" selection-start-column="24" selection-end-line="1807" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/tkinter/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2582" column="31" lean-forward="false" selection-start-line="2582" selection-start-column="25" selection-end-line="2582" selection-end-column="31" />
+        <state relative-caret-position="11900">
+          <caret line="595" column="36" lean-forward="true" selection-start-line="595" selection-start-column="30" selection-end-line="595" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab2/tweet.py">
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+        <state relative-caret-position="11900">
+          <caret line="595" column="36" lean-forward="true" selection-start-line="595" selection-start-column="30" selection-end-line="595" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex1/ex1_test.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pip/_vendor/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="11900">
+          <caret line="595" column="36" lean-forward="true" selection-start-line="595" selection-start-column="30" selection-end-line="595" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex1/ex1.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pkg_resources/_vendor/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4160">
-          <caret line="208" column="30" lean-forward="false" selection-start-line="193" selection-start-column="2" selection-end-line="208" selection-end-column="30" />
+        <state relative-caret-position="11900">
+          <caret line="595" column="36" lean-forward="true" selection-start-line="595" selection-start-column="30" selection-end-line="595" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab3/lab3.py">
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/pyparsing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="176" column="93" lean-forward="false" selection-start-line="176" selection-start-column="93" selection-end-line="176" selection-end-column="93" />
+        <state relative-caret-position="11900">
+          <caret line="595" column="36" lean-forward="true" selection-start-line="595" selection-start-column="30" selection-end-line="595" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex2/obfuscated_stack.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="42400">
+          <caret line="2120" column="30" lean-forward="true" selection-start-line="2120" selection-start-column="24" selection-end-line="2120" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex2/ex2_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="77" column="15" lean-forward="false" selection-start-line="77" selection-start-column="15" selection-end-line="77" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex2/ex2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2519">
-          <caret line="231" column="15" lean-forward="false" selection-start-line="231" selection-start-column="15" selection-end-line="231" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab4/myqueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1635">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab4/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="142" column="15" lean-forward="false" selection-start-line="142" selection-start-column="15" selection-end-line="142" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab4/timer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex3/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab4/ropes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab4/timequeue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex3/ex3_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="93" column="26" lean-forward="true" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex3/ex3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab5/time_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab5/timer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/visualizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1174">
-          <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/sample_rides.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/bikeshare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3120">
-          <caret line="157" column="15" lean-forward="false" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/a1_sample_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4160">
-          <caret line="213" column="58" lean-forward="false" selection-start-line="213" selection-start-column="56" selection-end-line="213" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/stations.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="0" column="14521" lean-forward="false" selection-start-line="0" selection-start-column="14517" selection-end-line="0" selection-end-column="14521" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9140">
-          <caret line="466" column="50" lean-forward="true" selection-start-line="466" selection-start-column="50" selection-end-line="466" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a1/container.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab6/linked_list_v2.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/_elementtree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="442" column="9" lean-forward="true" selection-start-line="442" selection-start-column="9" selection-end-line="442" selection-end-column="9" />
-          <folding />
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab5/linked_list.py">
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="100" column="19" lean-forward="false" selection-start-line="96" selection-start-column="3" selection-end-line="100" selection-end-column="19" />
+        <state relative-caret-position="21800">
+          <caret line="1090" column="34" lean-forward="true" selection-start-line="1090" selection-start-column="28" selection-end-line="1090" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab7/nested.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="21800">
+          <caret line="1090" column="34" lean-forward="true" selection-start-line="1090" selection-start-column="28" selection-end-line="1090" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="27" selection-end-line="230" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pip/_vendor/requests/packages/urllib3/_collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="27" selection-end-line="230" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/jinja2/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="346" column="39" lean-forward="false" selection-start-line="346" selection-start-column="33" selection-end-line="346" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/pygame/tests/test_utils/png.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2246" column="46" lean-forward="false" selection-start-line="2246" selection-start-column="40" selection-end-line="2246" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/python_ta/typecheck/typeshed/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="586" column="37" lean-forward="false" selection-start-line="586" selection-start-column="31" selection-end-line="586" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/distutils/filelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/457272492/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="4658" column="41" lean-forward="false" selection-start-line="4658" selection-start-column="41" selection-end-line="4658" selection-end-column="41" />
+        <state relative-caret-position="562">
+          <caret line="3612" column="37" lean-forward="false" selection-start-line="3612" selection-start-column="31" selection-end-line="3612" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex4/ex4_test.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/_collections_abc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="983" column="35" lean-forward="false" selection-start-line="983" selection-start-column="29" selection-end-line="983" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab7/flatten.py">
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/_collections_abc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="983" column="35" lean-forward="false" selection-start-line="983" selection-start-column="29" selection-end-line="983" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/week7/recursion.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab5/time_lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="-811">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab7/rec_linked_list.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab9/timer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3047">
-          <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+        <state relative-caret-position="475">
+          <caret line="94" column="20" lean-forward="false" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab8/tree.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab9/profile_bst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="210" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="227" selection-end-column="21" />
+        <state relative-caret-position="269">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/week8/btree_test.py">
+    <entry file="file://$PROJECT_DIR$/exercises/ex6/ex6_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
-          <folding>
-            <element signature="e#909#920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex5/ex5_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4220">
-          <caret line="216" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
-          <folding>
-            <element signature="e#909#920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/week8/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="109" column="23" lean-forward="false" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lectures/week8/btree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab8/tiling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1940">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding>
-            <element signature="e#594#607#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1920">
+          <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercises/ex4/ex4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2260">
+        <state relative-caret-position="364">
           <caret line="113" column="18" lean-forward="false" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/ex3/ex3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab9/bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2276">
+          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab7/nested.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab5/linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2238">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab6/linked_list_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1813">
+          <caret line="340" column="11" lean-forward="false" selection-start-line="340" selection-start-column="8" selection-end-line="340" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab8/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="209" column="42" lean-forward="false" selection-start-line="209" selection-start-column="42" selection-end-line="209" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/docrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercises/ex5/ex5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        <state relative-caret-position="246">
+          <caret line="95" column="49" lean-forward="false" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a2/rectangle_test.py">
+    <entry file="file://$PROJECT_DIR$/labs/lab7/rec_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="284" column="29" lean-forward="true" selection-start-line="284" selection-start-column="29" selection-end-line="284" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a2/renderer.py">
+    <entry file="file://$PROJECT_DIR$/assignments/a2/output.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a2/string_color_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/a2/block.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1149">
-          <caret line="208" column="26" lean-forward="true" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
-          <folding>
-            <element signature="e#244#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a2/goal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1660">
+          <caret line="84" column="11" lean-forward="false" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a2/player.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="131" column="33" lean-forward="true" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="6760">
+          <caret line="345" column="39" lean-forward="false" selection-start-line="345" selection-start-column="39" selection-end-line="345" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a2/renderer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a2/block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8700">
+          <caret line="439" column="31" lean-forward="false" selection-start-line="439" selection-start-column="31" selection-end-line="439" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/a2/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="2000">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab10/timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab10/profile_sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab10/sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/a2/simple_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="318" column="33" lean-forward="true" selection-start-line="318" selection-start-column="33" selection-end-line="318" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab10/timsort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2900">
+          <caret line="178" column="17" lean-forward="false" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../csc148_env/Lib/site-packages/_pytest/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1060" column="0" lean-forward="false" selection-start-line="1060" selection-start-column="0" selection-end-line="1060" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/ex7/ex7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/ex7/dict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/ex6/ex6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="191" column="28" lean-forward="true" selection-start-line="191" selection-start-column="28" selection-end-line="191" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -15,11 +15,12 @@ At the bottom of the file, there are some function that you
 can call to try playing the game in several different configurations.
 """
 import random
-from typing import List
-from block import Block, random_init
+from typing import List, Type
+
+from block import Block, random_init, random_color
 from goal import BlobGoal, PerimeterGoal, Goal
-from player import Player, HumanPlayer#, RandomPlayer, SmartPlayer
-from renderer import Renderer, COLOUR_LIST, colour_name, BOARD_WIDTH
+from player import Player, HumanPlayer, RandomPlayer, SmartPlayer
+from renderer import Renderer, colour_name, BOARD_WIDTH
 
 
 class Game:
@@ -45,17 +46,70 @@ class Game:
                  num_human: int,
                  random_players: int,
                  smart_players: List[int]) -> None:
-        """Initialize this game, as described in the Assignment 2 handout.
+        """Initialize this game by setting up its public attributes.
+
+        It does the followng:
+        - Creates a Renderer for this game.
+        - Generate a random goal type, for all players to share.
+        - Generate a random board with the given maximum depth.
+        - Generate the right number of human players, random players,
+        and smart players (with the given difficulty levels), in that order.
+        - Give the players consecutive player numbers, starting at 0.
+        - Assign each of the players a random target colour and display
+        their goal to them.
+        - Before returning, draw the board.
 
         Precondition:
             2 <= max_depth <= 5
         """
-        # todo: Generate random players
+        num_players = num_human + random_players + len(smart_players)
+        self.renderer = Renderer(num_players)
 
+        goal = self._generate_random_goal()
 
-        self.renderer = Renderer(num_human + ran)
+        self.board = random_init(0, max_depth)
+        self.board.update_block_locations((0, 0), BOARD_WIDTH)
 
-    def random_goal(self) -> Goal:
+        self.players = self._generate_players(goal, num_human,
+                                              random_players, smart_players)
+
+        for i in range(num_human):
+            self.renderer.display_goal(self.players[i])
+
+        self.renderer.draw(self.board, 0)
+
+    @staticmethod
+    def _generate_random_goal() -> Type[Goal]:
+        """Generate a random goal type, either BlobGoal or PerimeterGoal, for
+        all players to share."""
+        if random.choice([True, False]):
+            return BlobGoal
+        return PerimeterGoal
+
+    def _generate_players(self, goal: Type[Goal],
+                          num_human: int,
+                          random_players: int,
+                          smart_players: List[int]) -> List[Player]:
+        """Generate the right number of human players, random players, and
+        smart players (with the given difficulty levels), in that order.
+
+        Give the players consecutive player numbers, starting at 0.
+
+        Assign each of them a random target colour and display their goals.
+        """
+        _human_players = [HumanPlayer(self.renderer, i, goal(random_color()))
+                          for i in range(num_human)]
+
+        _random_players = [RandomPlayer(self.renderer, i, goal(random_color()))
+                           for i in range(num_human,
+                                          random_players + num_human)]
+        _smart_players = [SmartPlayer(self.renderer, i, goal(random_color()),
+                                      difficulty)
+                          for i, difficulty in
+                          zip(range(num_human + random_players,
+                                    num_human + random_players +
+                                    len(smart_players)), smart_players)]
+        return _human_players + _random_players + _smart_players
 
     def run_game(self, num_turns: int) -> None:
         """Run the game for the number of turns specified.
@@ -69,7 +123,6 @@ class Game:
         For example, refer to the self.players[0] as 'Player 1'.
 
         When the game is over, print who won to the console.
-
         """
         # Index within self.players of the current player.
         index = 0
@@ -77,6 +130,7 @@ class Game:
             player = self.players[index]
             print(f'Player {player.id}, turn {turn}')
             if self.players[index].make_move(self.board) == 1:
+                print(f"Player {index} failed his turn.")
                 break
             else:
                 print(f'Player {player.id} CURRENT SCORE: ' +
@@ -128,20 +182,21 @@ def sample_game() -> None:
     """Run a sample game with one human player, one random player,
     and one smart player.
     """
-    # random.seed(1001)
+    random.seed(1001)
     game = Game(5, 1, 1, [6])
     game.run_game(3)
 
 
 if __name__ == '__main__':
-    # import python_ta
-    # python_ta.check_all(config={
-    #     'allowed-io': ['run_game'],
-    #     'allowed-import-modules': [
-    #         'doctest', 'python_ta', 'random', 'typing',
-    #         'block', 'goal', 'player', 'renderer'
-    #     ],
-    # })
+    import python_ta
+
+    python_ta.check_all(config={
+        'allowed-io': ['run_game'],
+        'allowed-import-modules': [
+            'doctest', 'python_ta', 'random', 'typing',
+            'block', 'goal', 'player', 'renderer'
+        ],
+    })
     # sample_game()
     auto_game()
     # two_player_game()

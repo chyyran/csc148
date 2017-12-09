@@ -11,6 +11,7 @@ University of Toronto
 This file contains the Renderer class.
 """
 from typing import List, Tuple
+
 import pygame
 
 WHITE = (255, 255, 255)
@@ -162,8 +163,10 @@ class Renderer:
                 if e.type == pygame.MOUSEBUTTONDOWN:
                     return
 
+
 if __name__ == '__main__':
     import python_ta
+
     python_ta.check_all(config={
         'allowed-import-modules': [
             'doctest', 'python_ta', 'random', 'typing',

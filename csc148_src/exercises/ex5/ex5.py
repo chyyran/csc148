@@ -91,6 +91,16 @@ class Tree:
         base.extend(trees)
         return base
 
+    def longest_path(self):
+        """
+        >>> t = to_tree([17, [-2, [5], [6, [-8], [13]]], [3], [4]])
+        >>> t.longest_path()
+        [17, -2, 6, -8]
+        """
+        if self.is_empty():
+            return []
+        return [self._root] + max([tree.longest_path() for tree in self._subtrees],
+                                  key=lambda x: len(x), default=[])
 
 def to_tree(obj: Union[int, List]) -> 'Tree':
     """Return the Tree which <obj> represents.

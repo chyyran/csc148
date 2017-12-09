@@ -11,7 +11,7 @@ LinkedList and _Node.
 
 All of the code from lecture is here, as well as some exercises to work on.
 """
-from typing import Optional, Callable, Iterator, Union
+from typing import Optional, Callable, Iterator, Union, List
 
 
 class _Node:
@@ -323,7 +323,7 @@ class LinkedList:
             prev_node.next = _Node(item)
             prev_node.next.next = next_node
 
-    def extend(self, items: list) -> None:
+    def extend(self, items: List[int]) -> None:
         """Extend this list by appending elements from <items>.
 
         >>> lst = LinkedList([1, 2, 3])
@@ -449,7 +449,22 @@ class LinkedList:
             initval = f(initval, item)
         return initval
 
+    def remove_last(self):
+        """
+        >>> st = LinkedList([1, 2, 3])
+        >>> st.remove_last()
+        >>> st
+        [1 -> 2]
+        """
+        current = self._first
+        previous = None
+        while current is not None and current.next is not None:
+            previous = current
+            current = current.next
+        if current is not None:
+            previous.next = current.next
 
 if __name__ == '__main__':
-    list = LinkedList([1, 2, 3, 4])
+    list = LinkedList([1])
+    list.remove_last()
     print(list)
